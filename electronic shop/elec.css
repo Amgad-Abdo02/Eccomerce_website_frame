@@ -1,0 +1,128 @@
+#categories{ display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header{
+    background-color:#090909;
+}
+body{
+    background-color: #111111;
+}
+#categories ul li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: large;
+}
+#log{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    align-self: center;
+}
+#categories ul li a:hover{
+    color: aqua;
+}
+#categories ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    border-radius: 5px;
+    display: inline-flex;
+    align-self: center;
+    
+}
+#aqua{
+    width: 150px;
+    height: 150px;
+}
+#user{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    padding: 30px;
+    
+}
+.menu{
+    display: inline-flex;
+    justify-content: flex-start;
+    padding: 0%;
+    margin: 0;
+}
+.signin{
+    display: inline-flex;
+    justify-content: flex-end;
+    padding: 0%;
+    margin: 0;
+}
+
+.product-col{
+    flex-basis: 32%;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0%;
+}
+.product-col img{
+    width: 100%;
+    display: block;
+    height: 100%;
+    
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transition: 0.5s ease;
+    /* height: 80%; */
+    display: flex;
+    align-items: center;
+}
+.layer:hover {
+    background: rgba(66, 62, 62, 0.7);
+    top: 0%;
+}
+.layer H3{
+    width: 80%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    padding: 5%;
+    opacity: 0;
+    transition: 0.5s ease;
+    text-align: center;
+
+}
+.layer:hover h3{
+   
+    opacity: 1;
+    
+}
+.row{
+    margin-top: 5%;
+  margin-left: 15%;
+  margin-right:10% ;
+    display: flex;
+    justify-content: space-around;
+}
+.pricetags{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 13%  ;
+    margin-right: 13%;
+    
+}
+.pricetags h3{
+    color: #fff;
+    font-size: x-large;
+}
+
+
+
